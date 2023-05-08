@@ -12,7 +12,7 @@ const Form = () => {
 
   const changeHandler = (e)=>{
     // console.log(e.target.name, e.target.value)
-     setUser({...user,[e.target.name]: e.target.value})
+    setUser({...user,[e.target.name]: e.target.value})
   }
 
   return (
